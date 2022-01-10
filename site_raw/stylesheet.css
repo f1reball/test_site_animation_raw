@@ -1,0 +1,134 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #252525;
+    overscroll-behavior: none;
+}
+
+.filler {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+
+.footer {
+    color: #252525;
+    background-color: #e1e1d3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 80px;
+    padding: 20px 20vw;
+    margin-top: -10px;
+}
+
+
+.bottom, body, svg {
+    overflow-x: hidden;
+    width: calc(100% + 60px);
+    height: 100%;
+    margin-left: -30px;
+}
+
+
+.footer-copyright {
+    display: inline-flex;
+}
+
+.footer-copyright span {
+    font-family:sans-serif;
+}
+
+.footer-copyright p {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -10px;
+    font-size: 12px;
+    color: #252525;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 25px 0;
+
+} 
+
+.socials li {
+    margin: 0 15px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.socials a i {
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+}
+
+#facebook:hover {
+    color: #3B5998;
+}
+#twitter:hover {
+    color: #55ACEE;
+}
+#linkedin:hover {
+    color: #007bb5;
+}
+#instagram:hover {
+    color: #ea4c89;
+}
+#youtube:hover {
+    color: #EE0000;
+}
+
+
+
+.hylink {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 0;
+    
+
+} 
+
+.hylink li {
+    margin: 0 100px;
+    border-bottom: 1px solid #0000;
+    transition: 0.3s;
+}
+
+.hylink li:hover {
+    border-color: #252525;
+}
+
+.hylink a {
+    text-decoration: none;
+    color: #252525;
+}
+
+
+.hylink p {
+    margin: 0px;
+}
+
+.footer-content {
+    padding: 30px 0 15px 0;
+    margin: 0 0 0 0;
+}
+
+html {
+    width: 100%;
+}
